@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+}
+.item {
+  width: 180px;
+  padding: 1rem;
+  background: #7e6da7;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+}

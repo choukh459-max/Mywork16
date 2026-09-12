@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+.item {
+  padding: 1rem 1.5rem;
+  background: #1b0512;
+  color: white;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: 600;
+}

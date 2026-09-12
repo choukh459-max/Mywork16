@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+.item {
+  padding: 1rem;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+.item-1 { flex-grow: 1; background: #6366f1; }
+.item-2 { flex-grow: 1; background: #8b5cf6; }
+.item-3 { flex-grow: 8; background: #ec4899; /* ស្រូបយក space ៨ ដង */ }

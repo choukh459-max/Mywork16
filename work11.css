@@ -1,0 +1,13 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card {
+  flex: 1 1 250px; /* grow: 1, shrink: 1, basis: 250px */
+  background: #1e293b;
+  padding: 1.5rem;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  color: #f8fafc;
+}

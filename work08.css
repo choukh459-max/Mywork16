@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+.item {
+  padding: 1rem 1.4rem;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+/* HTML: 1 -> 2 -> 3 -> 4 */
+.item-1 { order: 3; background: #3b82f6; }
+.item-2 { order: 2; background: #10b981; }
+.item-3 { order: 4; background: #f59e0b; }
+.item-4 { order: 1; background: #ef4444; }
+/* Output: 4 -> 2 -> 1 -> 3 */

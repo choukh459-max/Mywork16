@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.card-box {
+  flex: 1;
+  padding: 1.2rem;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column; /* ប្តូរទៅជួរឈរលើអេក្រង់តូច */
+  }
+}

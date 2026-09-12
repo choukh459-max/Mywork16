@@ -1,0 +1,17 @@
+.perfect-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  background: #0f172a;
+  border: 2px dashed #38bdf8;
+  border-radius: 12px;
+}
+.item {
+  padding: 1.2rem 2rem;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(6, 182, 212, 0.4);
+}
